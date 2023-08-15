@@ -3,17 +3,18 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-  * struct dog - A way to describe a dog
- * @name: Name of the dog
- * @age: Age of the dog
- * @owner: Owner of the dog
+ * struct dog - this descripction about which dog
+ * @name: sdfasdf
+ * @age:  asdfas
+ * @owner:  asdf
  */
+
 struct dog
-	{
-		char *name;
-		float age;
-		char *owner;
-	};
+{
+	char *name;
+	float age;
+	char *owner;
+};
 typedef struct dog dog_t;
 dog_t *new_dog(char *name, float age, char *owner);
 void init_dog(struct dog *d, char *name, float age, char *owner);
